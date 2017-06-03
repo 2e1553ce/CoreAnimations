@@ -74,6 +74,7 @@
         _customView.transform = CGAffineTransformMakeRotation(M_PI/4);
      
     }];*/
+    NSLog(@"");
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
     animation.keyPath = @"position.x";
     animation.values = @[ @0, @10, @-10, @10, @0 ];
