@@ -72,6 +72,7 @@
         _customView.alpha = 0.5f;
         //calayer
         _customView.transform = CGAffineTransformMakeRotation(M_PI/4);
+     
     }];*/
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
     animation.keyPath = @"position.x";
